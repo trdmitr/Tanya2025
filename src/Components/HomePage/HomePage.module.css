@@ -79,23 +79,23 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
    
   }
 
-  .navLink20 {
+  .navLink21 {
     position: absolute;
     /* clip-path: var(--foundation); */
     padding: 0.1em 2em 3em 2em;
     /* margin-right: 1em; */
     box-sizing: border-box;
-    top: 79%;
-    left: 57%;
+    top: 88%;
+    left: 24%;
     line-height: 3.5em;
-    border: 6px solid #84d586;
+    border: 2px solid #84d586;
     border-radius: 9em;
     text-decoration: none;
     font-weight: bold;
     color: var(--buttonColor);
     background-color: var(--buttonBack);
-    -webkit-clip-path:var(--clipPath);
-    clip-path: var(--clipPath);
+    /* -webkit-clip-path:var(--clipPath);
+    clip-path: var(--clipPath); */
   
     height: 4em;
     /* box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset; */
@@ -105,19 +105,20 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
   
     .navLink23 {
       position: absolute;
-      clip-path: polygon(48% 18%, 79% 0, 99% 32%, 86% 73%, 62% 84%, 47% 100%, 32% 84%, 10% 69%, 0 26%, 23% 3%);
+      /* clip-path: var(--clipPath); */
+      /* clip-path: polygon(48% 18%, 79% 0, 99% 32%, 86% 73%, 62% 84%, 47% 100%, 32% 84%, 10% 69%, 0 26%, 23% 3%); */
       /* clip-path: polygon(12.85% 4.79%, 32.19% 0.00%, 50.14% 23.20%, 71.18% 2.38%, 92.94% 5.61%, 100% 20%, 89.64% 72.82%, 65.71% 90.43%, 55.04% 100%, 41.43% 87.43%, 20.03% 65.05%, 0.00% 40.09%); */
-      padding: 1.5em 1.5em;
-      top: 77%;
-      left: 28%;
-      line-height: 3.5em;
-      border: 6px outset #f5efed8a;
-      border-radius: 5em;
+      padding: 0.5em;
+      top: 76%;
+      left: 29%;
+      /* line-height: 3.5em; */
+      border: 2px outset #f5efed8a;
+      border-radius: 1em;
       text-decoration: none;
-      font-weight: bold;
-      color: #eb8905;
-      background-color: #c91300c4;
-      /* background-color: var(--buttonBack); */
+      /* font-weight: bold; */
+      color: #f8f6f3;
+      /* background-color: #c91300c4; */
+      background-color: var(--buttonBack);
       /* -webkit-clip-path:var(--clipPath); */
       /* clip-path: var(--clipPath); */
       /* clip-path:polygon(46% -17%, 12% 33%, 88% 25%, 95% 50%, 66% 52%, 28% 89%, 119% 88%, 77% 53%, 20% 39%, -13% 81%, 37% 78%); */
@@ -159,7 +160,7 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
     display: flex;
     width: fit-content;
     animation: ticker 10s linear infinite;
-    -webkit-transform-style: preserve-3d; /* Фикс возможного глюка с морганием в Сафари */
+    --webkit-transform-style: preserve-3d; /* Фикс возможного глюка с морганием в Сафари */
   }
         
   .ticker__item {
@@ -169,7 +170,7 @@ clip-path: polygon(50% 0%,59.40% 9.22%,73% 6%,77.32% 20.01%,91% 22%,87.16% 37.00
     width: 10em;
     padding-left: 13em;
     white-space: nowrap;
-    -webkit-backface-visibility: hidden; /* Фикс возможного глюка с морганием в Сафари */
+    --webkit-backface-visibility: hidden; /* Фикс возможного глюка с морганием в Сафари */
   }
 
   .videoBlock {

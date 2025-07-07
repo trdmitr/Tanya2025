@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 
 export const HomePage = () => {
-    const imgUrl = "https://otvet.imgsmail.ru/download/d7cc5f2314a4493e4ba53a908aa989b4_i-213.gif"
+    const imgUrl = "https://vgif.ru/gifs/145/vgif-ru-19277.gif"
     const videoUrl = 'https://trv-axtuba.ru/wp-content/uploads/2025/03/8-marta-2025.mp4'
     const videoName = ' '
-    const imgAlt = "8 марта 2025"
+    const imgAlt = "Tanya-2025"
 
     // const frontAudio = "https://trv-axtuba.ru/wp-content/uploads/2025/02/YUlya1.mp3";
     // const imgTzi = "https://drive.google.com/uc?export=download&id=1gsY4lPUU4pJ07s0JwDBeJjUYddkAuSr3"
@@ -19,11 +19,11 @@ export const HomePage = () => {
 
                     <div>
                         {/* <span className={classes.navLink}>Парни поздравляют с 8 марта 2024!</span> */}
-                        {/* <Link to="/cavers21"  className={classes.navLink21}>2021</Link>
-                      <Link to="/cavers22"  className={classes.navLink22}>2022</Link> */}
-                        <Link to="/cavers23" className={classes.navLink23}>Слушаем!</Link>
+                         <Link to="/cavers21"  className={classes.navLink21}>TR_COVERS</Link>
+                      {/*<Link to="/cavers22"  className={classes.navLink22}>2022</Link> */}
+                        <Link to="/cavers23" className={classes.navLink23}>НАШИ ПЕСНИ!</Link>
 
-                        {/* <Link to={`/cavers21`} className={classes.navLink21}>Слушаем!</Link> */}
+                        {/* <Link to={`/cavers21`} className={classes.navLink21}>Слуша!</Link> */}
                         {/* <Link to={`/cavers${yearTrib22}`} className={classes.navLink22}>2022</Link>
                       <Link to={`/cavers${yearTrib23}`} className={classes.navLink23}>2023</Link> */}
                         <div className={classes.main}>

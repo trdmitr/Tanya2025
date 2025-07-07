@@ -24,7 +24,7 @@ function App() {
        <Router>
           <Routes>
          <Route exact path="/" element={<HomePage/>}/>
-         <Route path="/cavers20" element={<CaverPage/> }/>
+         <Route path="/cavers21" element={<CaverPage/> }/>
          <Route path="/cavers22" element={<CaverPage/>} />
          <Route path="/cavers23" element={<CaverPage/>} />
          <Route path="/cavers/:id" element={<SinglPage />} /> 
