@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 
 export const HomePage = () => {
-    const imgUrl = "https://vgif.ru/gifs/145/vgif-ru-19277.gif"
-    const videoUrl = 'https://trv-axtuba.ru/wp-content/uploads/2025/03/8-marta-2025.mp4'
+    const imgUrl = "https://gclnk.com/H4VkCgx1"
+    const videoUrl = 'https://gclnk.com/pgoYEaIZ'
     const videoName = ' '
     const imgAlt = "Tanya-2025"
 
