@@ -32,8 +32,8 @@ const SingContent = () => {
                         
                         <div className={classes.headerSong}>
                             <p>{name}</p></div>
-                        <a className={[classes.linkTo, linkTo ? '' : classes.mediaHidden].join(' ')} href={linkTo}
-                         target="_blank" rel="noopener noreferrer"> Канал исполнителя </a>
+                        {/* <a className={[classes.linkTo, linkTo ? '' : classes.mediaHidden].join(' ')} href={linkTo}
+                         target="_blank" rel="noopener noreferrer"> Канал исполнителя </a> */}
                         <div className=
                             {
                                 classes.audioBlock
