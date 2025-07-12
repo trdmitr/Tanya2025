@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Tanya2025/static/css/main.fd5f86df.css",
-    "main.js": "/Tanya2025/static/js/main.db52b84d.js",
+    "main.js": "/Tanya2025/static/js/main.db0997f7.js",
     "static/js/57.7d2b2c08.chunk.js": "/Tanya2025/static/js/57.7d2b2c08.chunk.js",
     "static/media/Peter_Ivanovitsch.ttf": "/Tanya2025/static/media/Peter_Ivanovitsch.0a7e08732cb341bb723b.ttf",
     "index.html": "/Tanya2025/index.html",
     "main.fd5f86df.css.map": "/Tanya2025/static/css/main.fd5f86df.css.map",
-    "main.db52b84d.js.map": "/Tanya2025/static/js/main.db52b84d.js.map",
+    "main.db0997f7.js.map": "/Tanya2025/static/js/main.db0997f7.js.map",
     "57.7d2b2c08.chunk.js.map": "/Tanya2025/static/js/57.7d2b2c08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd5f86df.css",
-    "static/js/main.db52b84d.js"
+    "static/js/main.db0997f7.js"
   ]
 }
